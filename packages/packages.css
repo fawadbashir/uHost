@@ -1,0 +1,109 @@
+main {
+    padding-top: 32px;
+}
+
+.background {
+    background: url('../images/plans-background.jpg');
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.package {
+    background: rgb(161, 238, 161);
+    width: 60%;
+    height: 250px;
+    margin: 16px 0;
+    border: #006400 4px solid;
+    padding: 16px;
+    box-sizing: content-box;    
+    border-left: none;
+    /* display: inline-block; */
+    position: relative;
+    z-index: 0;
+}
+
+
+
+.package:hover,.package:active {
+    border-color: darksalmon;
+}
+
+
+
+.package__link {
+    text-decoration: none;
+    display: block;
+
+    
+}
+.package__title {
+    color: black;
+    display: inline-block;
+    margin-top:28px;
+    margin-bottom: 0px;
+    
+}
+
+.package__badge {
+    /* display: inline-block; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    padding : 8px;
+    font-size: 12px;
+    background: #ff5454;
+    color: white;
+    z-index: 10;
+    
+    
+}
+
+.package__subtitle {
+    color: grey;
+    font: 18px;
+    
+}
+
+.package__description {
+    background: white;
+    color: black;
+    display: inline-block;
+    width: 98%;
+    font: 20px;
+    vertical-align: middle;
+    padding : 16px;
+    /* margin: 0px; */
+    border: #0f630f 2px solid;
+    
+}
+
+.clear-fix {
+    clear: both;
+}
+.package.free-package {
+    background: #dbf0db;
+    float: right;
+    border-right: none;
+    border-left : 4px solid #064206
+    
+}
+
+.free-package:hover {
+    border: 4px solid darksalmon;
+    border-right: none;
+}
+.package.premium-package {
+    background: #064206;
+}
+
+.premium-package  .package__title {
+    color: white;
+}
+
+
+
+
+

@@ -1,0 +1,143 @@
+
+
+/* main {
+    padding-top: 32px;
+} */
+
+#product-overview {
+    background:url('./images/freedom.jpg');
+    width: 100%;
+    padding: 20px;
+    height: 523px;
+    margin-top: 32px;
+    /* border: 5px solid black; */
+    position: relative;
+}
+
+#product-overview h1 {
+    color : white;
+    font-family: 'Anton', sans-serif !important;
+    position: absolute;
+    left: 20px;
+    bottom: 32px;
+}
+
+.plan {
+    background: #d5ffdc;
+    width: 30%;
+    display: inline-block;
+    margin: 8px;
+    padding: 16px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.plan__list {
+    margin : auto;
+    width: 80%;
+    text-align: center;
+}
+
+.plan--highlighted { 
+    background: #1B5E20;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(35, 54, 109, 0.507);
+}
+
+.plan__annotation {
+    background: white;
+    color: #19b84d;
+    box-shadow: 2px 2px 2px 2px rgba(96, 125, 139,1.0);
+    padding: 12px;
+    vertical-align: middle;
+    font-weight: bolder;
+    border-radius: 8px;
+}
+
+.plan__title {
+    color : #072c11
+}
+
+.plan--highlighted .plan__title {
+    color: white;
+}
+
+.plan__price {
+    color: #38383d;
+}
+
+.plan--highlighted .plan__price {
+    color: #8ac241;
+    font-weight: bold;
+}
+
+.plan__features { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+}
+
+.plan__features li {
+    margin: 8px 0;
+}
+
+
+
+#key-features {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    padding: 50px;
+    padding-top: 20px;
+    margin-top: 80px;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    background-color:#ff1b68;
+    color: white;
+    font-weight: bold;
+    
+    
+    
+}
+#key-features .section-title {
+    vertical-align: middle;
+    /* padding: 10px; */
+    margin: 32px;
+    color: white;
+    /* margin:32px */
+}
+
+.key-features__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.key-feature  {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    text-align: center;
+        
+}
+
+
+.key-feature__image {
+    display: inline-block;
+    vertical-align: middle;
+    width : 130px;
+    height : 130px;
+    border : black solid 2px;
+    border-radius : 50%;
+    background: ivory;
+    
+
+}
+
+.key-feature__description {
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+

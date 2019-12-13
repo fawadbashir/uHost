@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    
+}
+
+
+.button {
+    background: #0e4f1f;
+    color: white;
+    padding: 8px;
+    /* border: #072c11 2px solid; */
+    box-shadow: 1px 1px 1px 1px #795548 ;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font: inherit
+}
+.button:hover,.button:active {
+    background: #E8F5E9;
+    color: #0e4f1f;    
+    
+}
+
+.button:focus {
+    outline: none;
+}
+
+.section-title {
+    /* columns: #22df22; */
+    color: #2ddf5c;
+    text-align: center;
+}
+
+.main-header {
+    background-color: cadetblue;
+    width: 100%;
+    padding: 8px 16px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    /* box-sizing: border-box; */
+
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.main-header__brand {
+    color: #0e0e0e;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    width: calc(100% - 74px);
+}
+
+
+.main-nav__items {
+    margin : 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin : 0px 12px;
+    
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0
+    
+}
+
+.main-nav__item a:hover,a:active {
+    color: white;
+    border-bottom: white solid 3px;
+}
+
+.main-nav__item--cta a {
+    background: #ff1b68;
+    padding: 8px 8px;
+    border-radius: 8px;
+    
+}
+.main-nav__item--cta a:hover,a:active {
+    border: none;
+    background: white;
+    color: #ff1b68;
+    
+
+}
+
+.main-footer {
+    background: black;
+    margin-top: 48px;
+    padding: 32px;
+}
+
+.main-footer__links {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+.main-footer__link {
+    display: inline-block;
+    margin: 0 16px;
+    text-align: center;
+
+}
+
+.main-footer__link a {
+    text-decoration: none;
+    color: white;
+}
+.main-footer:hover,:active {
+    color: #cccc;
+}
